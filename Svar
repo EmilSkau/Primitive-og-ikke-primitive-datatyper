@@ -1,0 +1,20 @@
+void setup() {
+
+  println("Byte Min: " + Byte.MIN_VALUE + " Max: " + Byte.MAX_VALUE);
+
+  println("Short Min: " + Short.MIN_VALUE + " Max: " + Short.MAX_VALUE);
+
+  println("Int Min: " + Integer.MIN_VALUE + " Max: " + Integer.MAX_VALUE);
+  
+  println("Long Min: " + Long.MIN_VALUE + " Max: " + Long.MAX_VALUE);
+
+  println("Float Min: " + Float.MIN_VALUE + " Max: " + Float.MAX_VALUE);
+
+  println("Double Min: " + Double.MIN_VALUE + " Max: " + Double.MAX_VALUE);
+
+  println("Char Min: " + (int) Character.MIN_VALUE + " Max: " + (int) Character.MAX_VALUE);
+
+  println("Boolean: " + Boolean.FALSE + " to " + Boolean.TRUE);
+
+  noLoop();
+}
